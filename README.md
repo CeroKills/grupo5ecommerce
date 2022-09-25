@@ -16,7 +16,7 @@ Disfruto aprender nuevas tecnologias y estar al tanto de las mismas. En mis tiem
 Me gusta ver series y películas. Pasó bastante tiempo con mi familia y amigos.
 
 ●Sebastian Cativa: Hola soy Sebastian, tengo 36 años y hace 7 años trabajo en el comercio. Estoy a cargo de un mayorista que tiene varias sucursales en nuestro país.
-Siempre quise aprender programación y al fin me animé... me cuesta mucho pero me encanta salir de mi zona de confort. Me encantan los videos juegos, programar, ir al gym 💪 y viajar para conocer nuevas culturas. 
+Siempre quise aprender programación y al fin me animé... me cuesta mucho pero me encanta salir de mi zona de confort. Me encantan los videos juegos, programar, ir al gym 💪 y viajar para conocemdr nuevas culturas. 
 
 ●Gabriel De Piano: Hola soy Gabriel. Tengo 31 años. Estudie licenciatura en química y trabajo hace más de 5 años en temas relacionados. Me gusta leer novelas, viajar y hacer deporte. Particularmente me fascina remar, hacer trekking y demás actividades de montaña. 
 
@@ -30,4 +30,6 @@ Refererecias sitios:
 4-https://app.axieinfinity.com/ 
 5- https://opensea.io/ 
 
+
+Tipografia Sitio: https://fonts.google.com/specimen/Fredoka+One 
 */
