@@ -22,6 +22,12 @@ Siempre quise aprender programación y al fin me animé... me cuesta mucho pero 
 
 ●Joaquin Felipe Diaz: Hola soy Joaquin, tengo 19 años. Arranque estudiando arquitectura, pero luego descubri que me apasiona mucho mas la programación y temas relacionados con las tecnologias. Me gusta coleccionar figuras de mis personajes favoritos, jugar videojuegos y hacer deportes, tales como futbol, boxeo y tenis de mesa.
 
+
+Refererecias sitios: 
+1- https://nbatopshot.com/marketplace 
+2- https://mintable.app/store/Dreadfulz-735-Staked-5719-last-updated-30052022/0x81ae0be3a8044772d04f32398bac1e1b4b215aa8 
+3-https://rarible.com/renga-by-dirtyrobot
+4-https://app.axieinfinity.com/ 
+5- https://opensea.io/ 
+
 */
-
-
