@@ -1,0 +1,23 @@
+/* config. inicial */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* home */
+
+body{
+    margin: 5px 5px 5px 5px;
+    padding: 25px 25px 25px 25px;
+    font-family: 'Fredoka+One', sans-serif;
+}
+
+
+h1{
+    padding: 20px 20px 20px 20px;
+    align-content: center;
+    text-align: center;
+}
+
