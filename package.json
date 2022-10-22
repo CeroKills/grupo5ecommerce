@@ -1,22 +1,13 @@
 {
-  "name": "grupo5ecommerce",
+  "name": "footer",
   "version": "1.0.0",
-  "description": "/* \r Sitio de NFT",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CeroKills/grupo5ecommerce.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CeroKills/grupo5ecommerce/issues"
-  },
-  "homepage": "https://github.com/CeroKills/grupo5ecommerce#readme",
   "dependencies": {
     "express": "^4.18.2"
   }

@@ -1,106 +1,334 @@
 <!DOCTYPE html>
-<html lang="es">
-<head> <!-- ACA HABRO EL HEAD - CONFIG. -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The NFT MARKET</title>
-    <link rel="stylesheet" href="/css/home.css"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-</head><!-- ACA CIERRO EL HEAD - CONFIG. -->
-
-
-<body> <!-- ACA ABRO EL BODY -->
-
-
-<main> <!-- ACA ABRO EL MAIN -->
-
-
-    <section> <!-- ACA ABRO SECCION SUBHEADER -->
-        <div class="subheader"> 
-            <h1>The NFT MARKET</h1>
-            <form action="/registro" method="POST">
-                <input type="email" name="email">
-            </form>
-         </div>
- 
-       </section><!-- CIERRO SUBHEADER -->
-
-    <section> <!-- ACA ABRO SECCION PRODUCTOS -->
-        <h2> LOS MEJORES NFT DEL MUNDOOOOOOO</h2>
-
-        <article class="ProductosNFT">
-            <img src="/img/Lego.png">
-            <div class="DescripcionNFT">
-                <p> LEGO </p>
-                <Br>
-                <p>
-                    Lorem ipsum 
-                </p>
-                <p>5 Eth</p>
-                </br>
-            </div>
-        </article>
-
-        <article class="ProductosNFT">
-            <img src="/img/Alien.png">
-            <div class="DescripcionNFT">
-                <p> Alien </p>
-                <Br>
-                <p>
-                    Lorem ipsum 
-                </p>
-                <p>7 Eth</p>
-                </br>
-            </div>
-        </article>
-
-        <article class="ProductosNFT">
-            <img src="/img/Pika.png">
-            <div class="DescripcionNFT">
-                <p> Pikachu </p>
-                <Br>
-                <p>
-                    Lorem ipsum 
-                </p>
-                <p>12 Eth</p>
-                </br>
-            </div>
-        </article>
-
-        <article class="ProductosNFT">
-            <img src="/img/spider.png">
-            <div class="DescripcionNFT">
-                <p> Hero </p>
-                <Br>
-                <p>
-                    Lorem ipsum 
-                </p>
-                <p>10 Eth</p>
-                </br>
-            </div>
-        </article>
-
-    </section>  <!-- CIERRO Productos -->
-    
-    
-    <section> <!-- ABRO SECCION REDES -->
-        <div class="Redes"> 
-            <h3> Seguinos o contactanos :D  </h3>
-            
-
-
-
-        </div>
+<html>
+    <head>
+        <meta charset="UTF-8">     
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/home.css">
+        <link rel="stylesheet" href="/css/stylesHeader.css">
+        <link rel="stylesheet" href="/css/footer.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 
         
-    </section> <!-- CIERRO SECCION REDES -->
+    </head>
+    <body>
+        <header id="myHeader"> 
+            <section class="lateral-header">
+                <img class="Logo" src="images/5.png" alt="Logo">
+                <!-- <div class="nft-barra-busqueda">
+                    <p class="nft-p-header">NFT</p> 
+                    <section class = "barra-busqueda-icono"> 
+                        <i class="fa-solid fa-magnifying-glass" id = "icono-lupa"></i>
+                        <input class = "barra-busqueda" placeholder="Buscar coleccionables y colecciones" type="text"></input>            
+                    </section>
+                </div> -->
+                <!--SOLO PARA VERSIÓN MOBILE-->
+                <div class = "caja-flex-mobile">
+           
 
-
-
-</main><!-- CIERRO EL MAIN -->
+                                <ul class = "primera-lista-mobile">
+                               
+                                    <li><a class="opciones-lista" href = "tiendas-oficiales.html">Ingresa</a></li>
+                                     <li><a class="opciones-lista" href = "vender.html">Registrate</a></li>
+                                     <li><div class="burger-menu-mobile">
+                                        <i class="fas fa-bars"></i></li>
+                                </ul>
+   
+                       
+                            <div class="search">
+                               <input type="text" class="searchTerm" placeholder="Buscar colecciones">
+                               <button type="submit" class="searchButton">
+                                 <i class="fa fa-search"></i>
+                              </button>
+                            </div>
+                         </div>
+                           
+                <!--SOLO PARA VERSIÓN MOBILE-->
+                <div class="nft-barra-busqueda">
+                    <div class="search">
+                       <input type="text" class="searchTerm" placeholder="Buscar colecciones">
+                       <button type="submit" class="searchButton">
+                         <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                 </div>
+                
+                        <div class="navbar">
+                                 <!--SOLO VERSIÓN 1024PX TABLET HORIZONTAL Y ESCRITORIOS NORMALES -->
+                                <ul class="version-escritorio-normal-Marketplace">
+                                    <li><a href = ".html">Marketplace</a></li>
+                                </ul> 
+                                <ul class = "primera-lista">
+                                    <li><a href = ".html">Marketplace</a></li>
+                                    <li><a href = "tiendas-oficiales.html">Drops</a></li>
+                                    <li><a href = "vender.html">Marcas</a></li>
+                                    <li><a href = "ayuda.html">Crear</a></i></li>
+                                </ul> 
+                                <ul class="segunda-lista">
+                                    <li id="hola"> <a href = "/register.html">Conectarse</a></li>
+                                    <li><a href = "/login.html">Registrarse</a></li> 
+                                </ul> 
+                                <!--SOLO VERSIÓN 1024PX TABLET HORIZONTAL Y ESCRITORIOS NORMALES -->
+                                <div class="burger-menu">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                                <!-- <ul class="tercer-lista">
+                                    <li id="hola"><a href="/register.html">Español</a></li>
+                                </ul> -->
+                        </div>    
     
-</body><!-- CIERRO BODY -->
-</html>
+            </section>
+
+        </header>
+        <main>
+            <img class ="Banner" src="images/gato.jpg" alt="Banner">
+            <section class="section-articulos">
+                <h3 class="Titulares">THE NFT MARKET</h3>   
+                <section class = "sub-section-articulos">
+                    <article>
+                            <img class ="Imagen-articulo" src="images/Alien.png" alt="Alien">
+                            <section class = "descripcionProducto">
+                                <div class = "envioCamion">
+                                  <i class="fa-solid fa-shuttle-space"></i>
+                                </div>
+                                <div class="descripcionTotalProducto"> <!-- este div contenedor
+                                permit asignle un flex row y poder dejar un espacio debajo de
+                                h3 descripciones tal como pedía el ejercicio de la clase 14 -->
+                                    <div class = "precioDescuento">
+                                        <p class="Precios">13 ETH</p>
+                                        <p class="Descuentos">40% off</p>
+                                    </div>
+                                    <h3 class="Descripciones">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, 
+                                        sed quasi magnam eveniet quia numquam possimus repudiandae 
+                                        rem molestias debitis, dolor, perspiciatis explicabo labore tenetur nostrum alias aliquam repellat dolorum.</h3>
+                                </div>
+                            </section>
+                        </article>
+                </section>  
+                <section class = "sub-section-articulos">
+                    <article>
+                        <img class = "Imagen-articulo" src="images/lego.png" alt="Lego">
+                        <section class = "descripcionProducto">
+                            <div class = "envioCamion">
+                              <i class="fa-solid fa-shuttle-space"></i>
+
+                             </div>   
+                            <div class="descripcionTotalProducto">
+                                <div class = "precioDescuento">
+                                    <p class="Precios">9 ETH</p>
+                                    <p class="Descuentos">20% off</p>
+                                </div>
+                                <h3 class="Descripciones">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Quis labore nobis ipsa omnis sed veritatis eaque
+                                     dolores hic consequuntur nesciunt! Quidem nobis quisquam numquam iure molestias esse temporibus quod cumque.</h3>
+                            </div>
+                        </section>
+                    </article>
+                </section>
+                <div class="line-break"></div>  
+                <section class = "sub-section-articulos">
+                    <article>
+                        <img class ="Imagen-articulo" src="images/pika.png" alt="Pikachu">
+                        <section class = "descripcionProducto">
+                            <div class = "envioCamion">
+                              <i class="fa-solid fa-shuttle-space"></i>
+                             </div> 
+                             <div class="descripcionTotalProducto">
+                                <div class = "precioDescuento">     
+                                    <p class="Precios">11 ETH</p>
+                                    <p class="Descuentos">10% off</p>
+                                </div>    
+                                <h3 class="Descripciones"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vitae eligendi expedita, 
+                                    atque nulla perspiciatis numquam consequatur in voluptate labore ut molestiae eveniet officia culpa fugit 
+                                    eaque exercitationem aspernatur recusandae!</h3>
+                            </div>
+                        </section>
+                    </article>
+                </section>   
+                <section class = "sub-section-articulos">
+                    <article>
+                        <img class ="Imagen-articulo" src="images/spider.png" alt="Spider Man">
+                        <section class = "descripcionProducto">
+                            <div class = "envioCamion">
+                              <i class="fa-solid fa-shuttle-space"></i>
+                            </div>  
+                            <div class="descripcionTotalProducto">
+                                <div class = "precioDescuento">   
+                                    <p class="Precios">$11 ETH</p>
+                                    <p class="Descuentos">5% off</p>
+                                </div>    
+                                <h3 class="Descripciones"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Aspernatur quod quisquam, laboriosam accusantium fugit non soluta
+                                     alias voluptates aperiam eveniet laudantium porro, eligendi aliquid ipsa laborum blanditiis modi amet corporis.</h3>
+                            </div>
+                        </section>
+                    </article> 
+                </section> 
+                <div class="line-break"></div> 
+                <h3 class="Titulares">MAS VISTOS</h3>
+                <section class = "sub-section-articulos">
+                    <article>
+                            <img class ="Imagen-articulo" src="images/droga-nft.png" alt="Droga Art">
+                            <section class = "descripcionProducto">
+                                <div class = "envioCamion">
+                                  <i class="fa-solid fa-shuttle-space"></i>
+                                </div>
+                                <div class="descripcionTotalProducto"> <!-- este div contenedor
+                                permit asignle un flex row y poder dejar un espacio debajo de
+                                h3 descripciones tal como pedía el ejercicio de la clase 14 -->
+                                    <div class = "precioDescuento">
+                                        <p class="Precios"> 21 ETH</p>
+                                        <p class="Descuentos">40% off</p>
+                                    </div>
+                                    <h3 class="Descripciones">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Culpa rem officia sit. 
+                                        Numquam autem neque sapiente totam possimus temporibus eos maxime error, 
+                                        eius ullam ad sequi quaerat omnis vero sint.</h3>
+                                </div>
+                            </section>
+                        </article>
+                </section>  
+                <section class = "sub-section-articulos">
+                    <article>
+                        <img class = "Imagen-articulo" src="images/vaca-nft.png" alt="VACA ART">
+                        <section class = "descripcionProducto">
+                            <div class = "envioCamion">
+                              <i class="fa-solid fa-shuttle-space"></i>
+                            </div>   
+                            <div class="descripcionTotalProducto">
+                                <div class = "precioDescuento">
+                                    <p class="Precios"> 17 ETH</p>
+                                    <p class="Descuentos">20% off</p>
+                                </div>
+                                <h3 class="Descripciones">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Eligendi ducimus, aspernatur doloremque optio excepturi maiores. Numquam, facilis saepe. 
+                                    Et consequuntur assumenda, culpa non ut tenetur vitae natus magnam accusamus adipisci!</h3>
+                            </div>
+                        </section>
+                    </article>
+                </section>
+                <div class="line-break"></div>  
+                <section class = "sub-section-articulos">
+                    <article>
+                        <img class ="Imagen-articulo" src="images/robot-nft.png" alt="ROBOT ART">
+                        <section class = "descripcionProducto">
+                            <div class = "envioCamion">
+                              <i class="fa-solid fa-shuttle-space"></i>
+                             </div> 
+                             <div class="descripcionTotalProducto">
+                                <div class = "precioDescuento">     
+                                    <p class="Precios">23 ETH</p>
+                                    <p class="Descuentos">10% off</p>
+                                </div>    
+                                <h3 class="Descripciones">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Enim architecto, qui quo, 
+                                    obcaecati cupiditate consectetur dicta in nam iure doloremque magnam cumque molestias consequatur dolores ipsa, corrupti a deleniti tempora?</h3>
+                            </div>
+                        </section>
+                    </article>
+                </section>      
+                <section class = "sub-section-articulos">
+                    <article>
+                        <img class ="Imagen-articulo" src="images/nafta-nft.png" alt="NAFTA ART">
+                        <section class = "descripcionProducto">
+                            <div class = "envioCamion">
+                              <i class="fa-solid fa-shuttle-space"></i>
+                            </div>  
+                            <div class="descripcionTotalProducto">
+                                <div class = "precioDescuento">  
+                                    <p class="Precios">19 ETH</p>
+                                    <p class="Descuentos">5% off</p>
+                                </div>    
+                                <h3 class="Descripciones">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Ex dolores et, necessitatibus itaque doloremque dignissimos dolorum? 
+                                    Veritatis corporis mollitia voluptatem nulla at asperiores magnam harum nam error, animi autem tenetur.</h3>
+                            </div>
+                        </section>
+                    </article>
+            </section>
+            <div class="line-break"></div> 
+          </main>
+          
+
+          <footer>
+            <div class="fondoNegro">
+                <div class="cajaLogoIconos">
+                    <img class="imgFooter" src="images/logoFooter.png" alt="Logo">
+                    <ul type="none">
+                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/"><i class="fa-brands fa-square-youtube"></i></a></li>
+                        <li><a href="https://twitter.com/home?lang=es"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://ar.pinterest.com/"><i class="fa-brands fa-pinterest"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navegadores">
+                    <ul type="none">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Marketplace</a></li>
+                        <li><a href="#">Drops</a></li>
+                    </ul>
+                </div>
+                <div class="navegadores">
+                    <ul type="none">
+                        <li><a href="#">Marcas</a></li>
+                        <li><a href="#">Crear</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="cajaMailDerechos">
+                    <form action="#" method="post">
+                        <label for="correo"></label>
+                        <input type="email" name="email" id="correo" placeholder="Buscar en la web..." required>
+                        <button class="footerButton" type="submit">Go</button>
+                    </form>
+                    <p>Copyright 2022. All Rights Reserved</p>
+                </div>
+            </div>
+    
+            <div class="fondoNegroCelular">
+                <div class="celularFormulario">
+                    <form action="#" method="post">
+                        <label for="correo"></label>
+                        <input type="email" name="email" id="correo" placeholder="Update in your inbox..." required>
+                        <button class="footerButton" type="submit">Go</button>
+                    </form>
+                </div>
+                <div class="navegadoresCelular">
+                    <div class="navegadores">
+                        <ul type="none">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Marketplace</a></li>
+                            <li><a href="#">Drops</a></li>
+                        </ul>
+                    </div>
+                    <div class="navegadores">
+                        <ul type="none">
+                            <li><a href="#">Marcas</a></li>
+                            <li><a href="#">Crear</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="iconosCelular">
+                    <ul type="none">
+                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/"><i class="fa-brands fa-square-youtube"></i></a></li>
+                        <li><a href="https://twitter.com/home?lang=es"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://ar.pinterest.com/"><i class="fa-brands fa-pinterest"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <img src="/images/logoFooter.png" alt="Logo" class="logo-footer">
+                <p>Copyright 2022. All Rights Reserved</p>
+            </div>
+        </footer>
+    
+                
+          
+        </body>
+          
+          
