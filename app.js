@@ -1,10 +1,17 @@
 const express = require('express');
-const path = require('path');
-
 const app = express();
 
-const publicPath = path.resolve(__dirname, './public');
-app.use(express.static(publicPath) );
+const rutasHome = require('./routers/home.js');
+const rutasCarrito = require('./routers/carrito.js');
+const rutasLogin = require('./routers/login.js');
+const rutasProducto = require('./routers/producto.js');
+const rutasRegistro = require('./routers/registro.js');
+
+app.set('view engine', 'ejs');
+
+const path=require('path');
+const publicPath=path.join(__dirname,'/public');
+app.use(express.static(__dirname + '/public'));
 
 const PORT = process.env.PORT || 3000
 
@@ -13,28 +20,17 @@ app.listen(PORT, () => {
 });
 
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/views/home.html'));
-});
 
-/*
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/views/header.html'));
-});
-*/
+app.use('/', rutasHome);
 
-app.get('/login', (req, res) => {
-    res.sendFile(path.join(__dirname, '/views/login.html'));
-});
+app.use('/carrito', rutasCarrito);
 
-app.get('/registro', (req, res) => {
-    res.sendFile(path.join(__dirname, '/views/registro.html'));
-});
+app.use('/login', rutasLogin);
 
-app.get('/carrito', (req, res) => {
-    res.sendFile(path.join(__dirname, '/views/carrito.html'));
-});
+app.use('/producto', rutasProducto);
 
-app.get('/producto', (req, res) => {
-    res.sendFile(path.join(__dirname, '/views/producto.html'));
-});
+app.use('/registro', rutasRegistro);
+
+
+
+module.exports = app;
