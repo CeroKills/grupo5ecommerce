@@ -2,7 +2,7 @@ const path=require('path');
 
 const registroController={
     index: (req, res) =>{
-        res.render('registro');
+        res.render('../views/usuarios/registro');
     }
 }
 

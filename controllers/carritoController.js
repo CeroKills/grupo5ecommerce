@@ -2,7 +2,7 @@ const path=require('path');
 
 const carritoController={
     index: (req, res) => {
-        res.render('carrito')
+        res.render('../views/productos/carrito')
     }
 }
 
