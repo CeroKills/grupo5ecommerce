@@ -7,6 +7,8 @@
         <title>NFT - login</title>
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/stylesLogin.css">
+        <link rel="stylesheet" href="/css/stylesHeader.css">
+        <link rel="stylesheet" href="/css/footer.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,12 +18,11 @@
         <link rel="SHORTCUT ICON" href="/img/icono.png">
     </head>
 <body>
-    <header id="myheader">
-    </header>
+    <%- include("../partials/header")  %> 
     <div class="main">
 
-        <div class="logo">
-            <img class="Logo" src="images/5.png" alt="Logo">
+        <div class="logo-login">
+            <img class="logo-login" src="images/5.png" alt="Logo">
         </div>
         <h1>NFT</h1>
 
@@ -45,4 +46,5 @@
 </div>
 <script src="/js/index.js"></script>
 </body>
+<%- include("../partials/footer")  %> 
 </html>

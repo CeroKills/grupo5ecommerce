@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-
+let ejs = require('ejs');
 const rutasHome = require('./routers/home.js');
 const rutasCarrito = require('./routers/carrito.js');
 const rutasLogin = require('./routers/login.js');
