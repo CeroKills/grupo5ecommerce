@@ -30,14 +30,14 @@ a {
         box-shadow: 5px 5px 20px rgb(143, 142, 142);
 }
 
-.logo {
+.logo-login {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 15px;
 }
 
-.logo img {
+.logo-login img {
     margin-top: 20px;
 }
 
@@ -106,7 +106,7 @@ h1 {
     color: rgb(255, 255, 191);
     width: 30px;
     height: 25px;
-    padding: 4px;
+    padding: 6px;
     text-align: center;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px; 
