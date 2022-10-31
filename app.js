@@ -6,11 +6,12 @@ const rutasCarrito = require('./routers/carrito.js');
 const rutasLogin = require('./routers/login.js');
 const rutasProducto = require('./routers/producto.js');
 const rutasRegistro = require('./routers/registro.js');
+const rutasEditarProducto = require('./routers/editarProducto.js')
 
 app.set('view engine', 'ejs');
 
-const path=require('path');
-const publicPath=path.join(__dirname,'/public');
+const path = require('path');
+const publicPath = path.join(__dirname, '/public');
 app.use(express.static(__dirname + '/public'));
 
 const PORT = process.env.PORT || 3000
@@ -31,6 +32,7 @@ app.use('/producto', rutasProducto);
 
 app.use('/registro', rutasRegistro);
 
+app.use('/editar', rutasEditarProducto);
 
 
 module.exports = app;
